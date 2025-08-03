@@ -9,3 +9,101 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
 }
+/* shared style */
+.container{
+    max-width: 1140px;
+    padding: 0 5px;
+    margin: auto;
+}
+.btn{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.main-text{
+    color: #FD6E0A;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+p{
+    color: #474747;
+}
+a{
+    text-decoration: none;
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dark-text{
+color: #474747;
+}
+/* header start here */
+header{
+    background-color: #FFF8F3;
+}
+.header{
+    background-image: url('images/developer.png'), url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Nav styles */
+nav {
+    padding: 17px 0;
+}
+
+p.banner-description {
+    padding-bottom: 39px;
+}
+.nav-title{
+    font-weight:800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-top-tile{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+    padding: 34px 0;
+}
+.banner-profile-pic{
+    width: 580px;
+}
