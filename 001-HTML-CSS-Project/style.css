@@ -32,7 +32,7 @@ section{
     color: #FD6E0A;
 }
 .section-title{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     color: #181818;
     text-align: center;
@@ -158,4 +158,33 @@ h4.skill-title {
 
 p.skill-description {
     font-size: 17px;
+}
+
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    padding-top: 45px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.experience h4 {
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
