@@ -1,24 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
 }
-body{
+
+body {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
+
 /* shared style */
-.container{
+.container {
     max-width: 1140px;
     padding: 0 5px;
     margin: auto;
 }
-section{
+
+section {
     margin: 100px 0;
 }
-.btn{
+
+.btn {
     background-color: #FD6E0A;
     font-weight: bold;
     font-size: 18px;
@@ -28,34 +33,42 @@ section{
     border-radius: 4px;
     cursor: pointer;
 }
-.main-text{
+
+.main-text {
     color: #FD6E0A;
 }
-.section-title{
+
+.section-title {
     font-size: 40px;
     font-weight: bold;
     color: #181818;
     text-align: center;
 }
-p{
+
+p {
     color: #474747;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.display-flex{
+
+.display-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.dark-text{
-color: #474747;
+
+.dark-text {
+    color: #474747;
 }
+
 /* header start here */
-header{
+header {
     background-color: #FFF8F3;
 }
-.header{
+
+.header {
     background-image: url('images/developer.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -69,12 +82,13 @@ nav {
 p.banner-description {
     padding-bottom: 39px;
 }
-.nav-title{
-    font-weight:800;
+
+.nav-title {
+    font-weight: 800;
     font-size: 45px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
 }
@@ -90,56 +104,61 @@ nav li a {
 }
 
 /* banner styles */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 580px;
 }
-.banner-top-tile{
+
+.banner-top-tile {
     font-size: 45px;
     font-weight: 600;
 }
 
-.banner-title{
+.banner-title {
     font-weight: bold;
     font-size: 85px;
     padding: 34px 0;
 }
-.banner-profile-pic{
+
+.banner-profile-pic {
     width: 580px;
 }
 
 /* ---------- About ---------- */
-.about{
+.about {
     text-align: center;
     background-color: #FFF8F3;
     padding: 150px 108px;
 }
+
 .about h3 {
     font-size: 3rem;
     padding-bottom: 50px;
 }
 
-.about > p {
+.about>p {
     padding-bottom: 43px;
     font-size: 21px;
 }
+
 .about-items {
     display: flex;
     justify-content: space-around;
 }
 
 /* skills section styles */
-.skills-container{
+.skills-container {
     display: flex;
     gap: 24px;
     padding-top: 50px;
 }
 
-.skill{
+.skill {
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -152,6 +171,7 @@ h3.section-title {
 p.section-description {
     text-align: center;
 }
+
 h4.skill-title {
     padding: 20px 0;
 }
@@ -161,28 +181,33 @@ p.skill-description {
 }
 
 /* resume section styles */
-.resume-container{
+.resume-container {
     display: flex;
     gap: 24px;
     padding-top: 45px;
 }
-.experience-sub-title{
+
+.experience-sub-title {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.experience-description, .experience-sub-title{
+
+.experience-description,
+.experience-sub-title {
     color: #757575;
 }
+
 .experience h4 {
     padding: 15px 0;
     font-size: 1.5rem;
 }
-.resume hr{
+
+.resume hr {
     margin: 30px 5px;
 }
 
-.resume-download-cv{
+.resume-download-cv {
     margin-top: 50px;
     align-items: center;
     display: flex;
