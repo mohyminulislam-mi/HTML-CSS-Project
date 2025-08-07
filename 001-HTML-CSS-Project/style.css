@@ -15,6 +15,9 @@ body{
     padding: 0 5px;
     margin: auto;
 }
+section{
+    margin: 100px 0;
+}
 .btn{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -52,7 +55,7 @@ header{
     background-color: #FFF8F3;
 }
 .header{
-    background-image: url('images/developer.png'), url('images/header_bg.png');
+    background-image: url('images/developer.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
@@ -106,4 +109,24 @@ nav li a {
 }
 .banner-profile-pic{
     width: 580px;
+}
+
+/* ---------- About ---------- */
+.about{
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 150px 108px;
+}
+.about h3 {
+    font-size: 3rem;
+    padding-bottom: 50px;
+}
+
+.about > p {
+    padding-bottom: 43px;
+    font-size: 21px;
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
 }
