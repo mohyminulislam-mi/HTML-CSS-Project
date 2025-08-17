@@ -216,3 +216,36 @@ form label {
     font-size: 17px;
     font-weight: 600;
 }
+/*------------- footer start hare----- */
+footer{
+    padding: 100px 0;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #D6DDED;
+}
+.footer-wrap {
+    width: 500px;
+    margin: auto;
+}
+.footer-wrap img {
+    width: 201px;
+}
+
+.footer-wrap p {
+    padding: 20px 0;
+    color: #8987A1;
+}
+ul li a {
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: 600;
+}
+ul li{
+    list-style: none;
+}
+
+.footer-wrap h1 {
+    font-size: 75px;
+    font-weight: 900;
+    color: #004DFF;
+}
