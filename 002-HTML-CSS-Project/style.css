@@ -178,3 +178,41 @@ h1.review-title {
 .ready-webflow-wrap img {
     border-radius: 41px;
 }
+/* (newsletter section) start here */
+.newsletter-content{
+    max-width: 540px;
+}
+.newsletter-content h1 {
+    font-size: 80px;
+}
+.newsletter-contact-form{
+    max-width: 540px;
+}
+
+form input, textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #D6DDED;
+    border-radius: 5px;
+    margin: 5px 0 15px 0;
+    outline: none;
+    
+}
+textarea#message {
+    font-family: sans-serif;
+    resize: none;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #D6DDED;
+    border-radius: 5px;
+    margin: 5px 0 15px 0;
+    outline: none;
+}
+form button {width: 570px;}
+
+form label {
+    font-size: 17px;
+    font-weight: 600;
+}
