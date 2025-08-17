@@ -124,3 +124,57 @@ nav {
     color: #6e727f;
     text-align: center;
 }
+/* ----------- (review) start here-------- */
+h1.review-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 55px;
+}
+.review-box{
+    max-width: 360px;
+    background-color: white;
+    border-radius: 9px;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 0.5px solid #ededed;
+}
+.review-box h3 {
+    padding: 13px 0;
+}
+.review-person {
+    display: flex;
+    margin-top: 20px;
+}
+.review-person-img img {
+    border-radius: 50%;
+    margin-right: 11px;
+}
+.review-person-review-Text span {
+    font-family: sans-serif;
+    color: #6e727f;
+    font-size: 14px;
+}
+.review-person-name h4 {color: #6e727f;}
+
+/* (ready webflow section) start here */
+#ready-webflow{
+    border-radius: 20px;
+}
+.ready-webflow-wrap {
+    background-color: white;
+    text-align: center;
+    padding: 81px 150px;
+}
+.ready-webflow-wrap h1 {
+    font-size: 49px;
+}
+.ready-webflow-wrap p {
+    padding: 23px 0 17px 0;
+    font-size: 15px;
+}
+.ready-webflow-wrap button {
+    margin-bottom: 33px;
+}
+.ready-webflow-wrap img {
+    border-radius: 41px;
+}
