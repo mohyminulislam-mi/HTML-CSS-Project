@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #f5f8ff;
+}
+
+/* ------------shared items--------- */
+.btn{
+    background-color: #4E47FF;
+    color: white;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background-color: #45a049;
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+.container{
+    max-width: 1140px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    padding: 90px 0;
+}
+
+
+/* -----------Header style start hare------ */
+header{
+    background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 700px;
+}
+nav {
+    padding: 22px 0;
+}
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 140px 0;
+    width: 525px;
+}
+.hero-content-wrap h1 {
+    font-weight: 500;
+    font-size: 43px;
+    color: #252432;
+    text-align: center;
+}
+.hero-content-wrap button{
+    margin-top: 37px;
+}
