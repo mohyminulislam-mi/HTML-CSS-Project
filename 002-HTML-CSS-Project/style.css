@@ -91,3 +91,36 @@ nav {
 .action-img img{
     border-radius: 40px;
 }
+/* -----productive-user start here --------- */
+.productive-user{
+    background-color: #dce5ff;
+    border-radius: 23px;
+    padding: 50px 0;
+}
+.productive-user-wrap{
+    max-width: 850px;
+    margin: auto;
+}
+.productive-user-title {
+    color: #252432;
+    text-align: center;
+    margin-bottom: 28px;
+    font-size: 33px;
+}
+.productive-user-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.productive-user-box{
+    max-width: 180px;
+}
+.productive-user-box h1{
+    color: #4e47ff;
+    font-size: 70px;
+    font-family: sans-serif !important;
+}
+.productive-user-box span{
+    color: #6e727f;
+    text-align: center;
+}
