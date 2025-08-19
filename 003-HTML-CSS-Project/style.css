@@ -327,3 +327,64 @@
 .gallary-container img {
     width: 31%;
 }
+/* newsletter section */
+.newsletter-sec {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.newsletter-container {
+    width: 800px;
+}
+
+.newsletter-container img {
+    margin-bottom: 40px;
+}
+
+.newsletter-container h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.newsletter-container p {
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--dark-1);
+    font-weight: 100;
+    margin-bottom: 43px;
+}
+
+.newsletter-container input[type='email'] {
+    font-family: "Inter", sans-serif;
+    padding: 25px 30px;
+    width: 450px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-left: 1px solid var(--secondary-c);
+    border-top: 1px solid var(--secondary-c);
+    border-bottom: 1px solid var(--secondary-c);
+    border-right: none;
+    font-size: 18px;
+    outline: none;
+    color: var(--dark-1);
+}
+
+.newsletter-container input[type='submit'] {
+    font-family: "Inter", sans-serif;
+    padding: 24.5px 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    background-color: var(--secondary-c);
+    color: var(--primary-c);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
