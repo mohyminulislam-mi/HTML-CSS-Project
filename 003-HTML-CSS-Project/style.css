@@ -80,3 +80,32 @@
     font-weight: 800;
     color: #ffffff;
 }
+/* styling code for discount section */
+.new-year-discount {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    margin: 120px 0;
+}
+
+.discount-title {
+    font-size: 88px;
+    color: var(--secondary-c);
+    margin-bottom: 48px;
+}
+
+.discount-sub-title-1 {
+    font-size: 24px;
+    color: var(--secondary-c);
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.discount-sub-title-2 {
+    font-size: 48px;
+    color: var(--dark-1);
+    margin-bottom: 48px;
+}
