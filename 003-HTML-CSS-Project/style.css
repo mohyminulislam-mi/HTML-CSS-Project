@@ -109,3 +109,49 @@
     color: var(--dark-1);
     margin-bottom: 48px;
 }
+/* styling code for welcome section */
+.welcome-container {
+    width: 550px;
+    margin-left: 120px;
+}
+
+.welcome-sec {
+    width: 100%;
+    background-image: linear-gradient(to right, #070211, #07021100), url('images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 518px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+    justify-content: space-between;
+    border-radius: 14px;
+}
+
+.welcome-sec img {
+    width: 250px;
+    margin-right: 120px;
+}
+
+.welcome-title-1 {
+    font-size: 64px;
+    color: var(--primary-c);
+    letter-spacing: 8px;
+}
+
+.welcome-info {
+    font-size: 18px;
+    color: var(--primary-c);
+    font-weight: 100;
+    margin-top: 24px;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.join-btn {
+    font-size: 20px;
+    color: var(--primary-c);
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 32px;
+}
