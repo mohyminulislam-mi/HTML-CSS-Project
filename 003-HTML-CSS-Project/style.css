@@ -255,3 +255,37 @@
     font-weight: 100;
     margin-bottom: 43px;
 }
+/* styling code for holiday's offer with discount section */
+.holidays-title-container {
+    height: 986px;
+    background-image: url('images/Group\ 75.png'), url('images/Rectangle\ 2.png'), url('images/Group\ 44.png');
+    background-repeat: no-repeat;
+    background-size: 500px 500px, contain, 300px 300px;
+    background-position: 9% 93%, bottom, 85% 65%;
+    margin-bottom: 120px;
+}
+
+.holidays-title-container h5 {
+    font-size: 24px;
+    color: var(--dark-1);
+    margin-bottom: 16px;
+}
+
+.holidays-title-container h2 {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 28px;
+    color: var(--dark-1);
+
+    & span {
+        color: var(--secondary-c);
+    }
+}
+
+.holidays-title-container p {
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--dark-1);
+    font-weight: 100;
+    margin-bottom: 43px;
+}
