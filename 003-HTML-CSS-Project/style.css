@@ -155,3 +155,31 @@
     font-weight: 700;
     margin-left: 32px;
 }
+/* styling code of destination section */
+.destination {
+    margin-bottom: 120px;
+}
+
+.destination-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--dark-1);
+    margin-bottom: 10px;
+}
+
+.destination-title span {
+    color: var(--secondary-c);
+}
+
+.margin-b {
+    margin-bottom: 48px;
+}
+
+.join-now-red-btn {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--primary-c);
+    padding: 16px 32px;
+    background-color: var(--secondary-c);
+    border-radius: 8px;
+}
