@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
 body {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -22,11 +26,16 @@ main > section{
 .btn{
     background-color: #FF900E;
     color: white;
-    padding: 20px 25px;
+    padding: 12px 18px;
     font-size: 1.25rem;
     font-weight: 600;
     border-radius: 8px;
     border: none;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 /* header styles */
 
@@ -34,14 +43,15 @@ main > section{
 header{
        background-color: rgba(255, 144, 14, 0.1);
 }
-.navbar{
-    justify-content: space-between;
-    align-items: center;
+h1#title {
+    padding: 107px 0 30px 0;
 }
-
 .brand{
     font-weight: 700;
     font-size: 3rem;
+}
+nav.navbar {
+    padding-top: 10px;
 }
 .nav-item{
     list-style: none;
@@ -72,4 +82,7 @@ header{
 
 .banner-image{
     width: 100%;
+}
+p#description {
+    padding-bottom: 30px;
 }
