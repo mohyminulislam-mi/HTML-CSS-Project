@@ -11,7 +11,7 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-.conatiner{
+.container{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -20,8 +20,12 @@ main > section{
 }
 /* shared styles */
 .section-title{
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: 700;
+    padding: 107px 0 30px 0;
+}
+.banner-description{
+    padding-bottom: 30px;
 }
 .btn{
     background-color: #FF900E;
@@ -41,10 +45,7 @@ main > section{
 
 /* navbar related styles */
 header{
-       background-color: rgba(255, 144, 14, 0.1);
-}
-h1#title {
-    padding: 107px 0 30px 0;
+    background-color: rgba(255, 144, 14, 0.1);
 }
 .brand{
     font-weight: 700;
@@ -75,14 +76,41 @@ nav.navbar {
     margin-bottom: 50px;
 }
 
-.banner-title{
-    font-weight: 700;
-    font-size: 4rem;
-}
-
 .banner-image{
     width: 100%;
 }
-p#description {
-    padding-bottom: 30px;
+/* banner related styles */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 66px;
+    margin-top: 95px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+    padding-bottom: 45px;
+}
+.banner-image{
+    width: 100%;
+}
+.Features{
+    color: #FF900E;
+}
+.text-light-gray{
+    color: #727272;
+}
+.team-img-container {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 23px;}
+
+.our-features {
+    width: 35%;
+    padding: 70px;
+}
+p.feature-description {
+    padding-bottom: 25px;
 }
