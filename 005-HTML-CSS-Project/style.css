@@ -1,41 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
 }
-h1, h2, h3, h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Noto Serif", serif;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-p{
+
+p {
     font-size: 1.1rem;
     color: #8987A1;
 }
+
 /* ----------- shared style -------- */
-.container{
+.container {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.display-flex{
+.display-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-section{
+
+section {
     padding: 90px 0;
 }
-.btn{
+
+.btn {
     background-color: #E95A08;
     color: white;
     padding: 13px 22px;
@@ -44,67 +57,86 @@ section{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
 .btn:hover {
     background-color: #45a049;
 }
-.active-text{
+
+.active-text {
     color: black;
     font-weight: 600;
 }
+
 .gray-color {
     color: #8987A1;
 }
-.text-color{
+
+.text-color {
     color: #E95A08;
 }
+
 /* ------------ Header style start here ---------- */
 nav {
     padding-top: 12px;
 }
+
 .brand-logo img {
     width: 104px;
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav > ul >li {
+
+nav>ul>li {
     list-style: none;
     margin-left: 16px;
 }
+
 /* ------ Hero content start here-------- */
 .hero-content {
     padding: 150px 0 55px 0;
 }
+
 .hero-content-text h1 {
     font-size: 3.5rem;
     padding: 15px 0;
 }
+
 /* ------ Hero content start here-------- */
 .hero-content {
     padding: 150px 0 55px 0;
 }
+
 .hero-content-text h1 {
     font-size: 3.5rem;
     padding: 15px 0;
 }
+
 /* ------ Our-Plants content start here-------- */
-.our-plants-content, .latest-deals-content {
+.our-plants-content,
+.latest-deals-content {
     text-align: center;
     padding-bottom: 50px;
 }
-.our-plants-content h1, .latest-deals-content h1 {
+
+.our-plants-content h1,
+.latest-deals-content h1 {
     font-size: 3.2rem;
     padding-bottom: 15px;
 }
-.our-plants-boxs{
+
+.our-plants-boxs {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
+
 .plant-box {
     text-align: center;
 }
+
 .plant-box span {
     display: block;
     font-size: 1.3rem;
@@ -112,15 +144,21 @@ nav > ul >li {
     padding: 6px 0 24px 0;
 }
 
-.plant-box > h3 {
+.plant-box>h3 {
     font-family: "Roboto", sans-serif !important;
     padding-top: 13px;
     font-size: 1.3rem;
     font-weight: 400;
 }
-.plant-box > button {width: 100%;}
+
+.plant-box>button {
+    width: 100%;
+}
+
 /* ------ Flower & Plants Lover content start here-------- */
-.flower-image {width: 42%;}
+.flower-image {
+    width: 42%;
+}
 
 .flower-content {
     width: 46%;
@@ -134,45 +172,59 @@ nav > ul >li {
     font-size: 3rem;
     padding-bottom: 35px;
 }
-.flower-content >ul >li {font-size: 1.2rem;padding-bottom: 20px;}
-.flower-image{
+
+.flower-content>ul>li {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+.flower-image {
     position: relative;
 }
-.trusted-badge{
+
+.trusted-badge {
     position: absolute;
 }
+
 img.trusted-badge {
     width: 219px;
     top: -90px;
     right: -75px;
     z-index: 999;
 }
+
 /* ------ Latest deal section start here-------- */
-.latest-deals-box1{
+.latest-deals-box1 {
     width: 33%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.latest-deals-box2{
+
+.latest-deals-box2 {
     width: 68%;
     position: relative;
 }
+
 .latest-deal-inner-box {
     position: relative;
 }
+
 .latest-deals-images {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
-.latest-deal-inner-box img, .latest-deals-box2 img {
+
+.latest-deal-inner-box img,
+.latest-deals-box2 img {
     width: 100%;
     height: 100%;
     border-radius: 12px;
     filter: brightness(0.7);
 }
+
 .deal-content {
     position: absolute;
     top: 40%;
@@ -196,17 +248,20 @@ img.trusted-badge {
     left: 26%;
     text-align: center;
 }
-.latest-deals-box2-content h1{
+
+.latest-deals-box2-content h1 {
     color: white !important;
     padding-bottom: 3px;
     font-size: 2.2rem;
 }
-.latest-deals-box2-content a{
+
+.latest-deals-box2-content a {
     color: white !important;
     padding-bottom: 7px;
     text-decoration: underline;
     font-size: 23px;
 }
+
 /* ---------newsletter section start here--------- */
 section.newsletter {
     background-image: url(assets/news-letter-bg.png);
@@ -243,10 +298,54 @@ input[type="text"] {
     font-size: 2.5rem;
     padding-bottom: 22px;
 }
+
 button.newsletter-btn {
     background-color: #E95A08;
     padding: 12px 30px;
     border: none;
     outline: none;
     color: white;
+}
+
+/* footer start hare  */
+.footer-wrap.display-flex {
+    padding: 76px 0;
+}
+
+.footer-logo-content {
+    width: 360px;
+}
+
+.footer-logo-content img {
+    margin-bottom: 25px;
+}
+
+.footer-link>ul>li {
+    list-style: none;
+    padding-bottom: 26px;
+}
+
+.footer-link>ul>li>a {
+    color: #8987A1;
+}
+
+.socials-link {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img.twitter-icon {
+    margin-top: 4px;
+    width: 37px;
+    height: 29px;
+}
+
+.footer-link1>ul>li {
+    list-style: none;
+    padding-bottom: 26px;
+}
+
+.footer-link1>ul>li>a {
+    color: #8987A1;
 }
