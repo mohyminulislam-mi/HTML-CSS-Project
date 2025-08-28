@@ -119,3 +119,31 @@ nav > ul >li {
     font-weight: 400;
 }
 .plant-box > button {width: 100%;}
+/* ------ Flower & Plants Lover content start here-------- */
+.flower-image {width: 42%;}
+
+.flower-content {
+    width: 46%;
+}
+
+.flower-image img {
+    width: 100%;
+}
+
+.flower-content h1 {
+    font-size: 3rem;
+    padding-bottom: 35px;
+}
+.flower-content >ul >li {font-size: 1.2rem;padding-bottom: 20px;}
+.flower-image{
+    position: relative;
+}
+.trusted-badge{
+    position: absolute;
+}
+img.trusted-badge {
+    width: 219px;
+    top: -90px;
+    right: -75px;
+    z-index: 999;
+}
