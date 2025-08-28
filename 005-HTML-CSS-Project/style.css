@@ -147,3 +147,63 @@ img.trusted-badge {
     right: -75px;
     z-index: 999;
 }
+/* ------ Latest deal section start here-------- */
+.latest-deals-box1{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.latest-deals-box2{
+    width: 68%;
+    position: relative;
+}
+.latest-deal-inner-box {
+    position: relative;
+}
+.latest-deals-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.latest-deal-inner-box img, .latest-deals-box2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    filter: brightness(0.7);
+}
+.deal-content {
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    text-align: center;
+}
+
+.deal-content h3 {
+    color: white !important;
+    padding-bottom: 3px;
+}
+
+.deal-content a {
+    color: white;
+    text-decoration: underline;
+}
+
+.latest-deals-box2-content {
+    position: absolute;
+    top: 43%;
+    left: 26%;
+    text-align: center;
+}
+.latest-deals-box2-content h1{
+    color: white !important;
+    padding-bottom: 3px;
+    font-size: 2.2rem;
+}
+.latest-deals-box2-content a{
+    color: white !important;
+    padding-bottom: 7px;
+    text-decoration: underline;
+    font-size: 23px;
+}
