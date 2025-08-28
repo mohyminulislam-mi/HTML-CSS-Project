@@ -57,3 +57,18 @@ section{
 .text-color{
     color: #E95A08;
 }
+/* ------------ Header style start here ---------- */
+nav {
+    padding-top: 12px;
+}
+.brand-logo img {
+    width: 104px;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav > ul >li {
+    list-style: none;
+    margin-left: 16px;
+}
