@@ -349,3 +349,129 @@ img.twitter-icon {
 .footer-link1>ul>li>a {
     color: #8987A1;
 }
+
+/* Responsive for Mobile device media query  */
+
+@media screen and (Max-width:576px) {
+    /* -- header start here---- */
+.container{
+    padding: 15px;
+    margin: 0 auto;
+}
+
+nav > ul > li {
+    display: none;
+}
+nav >ul >li#Cart {
+    display: block;
+}
+.hero-content {
+    padding: 40px 0;
+}
+.hero-content-wrap {
+    flex-direction: column-reverse;
+}
+.hero-content-image img {
+    width: 105%;
+}
+
+.hero-content-text h1 {
+    font-size: 1.9rem;
+}
+ /* ------ Our-Plants content start here-------- */
+.our-plants-boxs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.plant-box img {
+    width: 100%;
+}
+.our-plants-content h1, .latest-deals-content h1 {
+    font-size: 2rem;
+}
+/* ------ Flower & Plants Lover content start here-------- */
+section.flower-plants-lover, .latest-deals {
+    padding-top: 1px;
+}
+.flower-plants-wrap {
+    flex-direction: column;
+}
+
+.flower-image {
+    width: 100%;
+}
+
+img.trusted-badge {
+    display: none;
+}
+
+.flower-content {
+    width: 100%;
+}
+
+.flower-content h1 {
+    font-size: 1.8rem;
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+
+.flower-content >ul {
+    padding: 20px;
+}
+.flower-content >ul >li {
+    font-size: 1rem;
+}
+/* ------ Latest deal Responsive-------- */
+.latest-deals-images {
+    flex-direction: column;
+}
+
+.latest-deals-box1 {
+    width: 100%;
+}
+
+.latest-deals-box2 {
+    width: 100%;
+}
+.latest-deals-box2-content h1 {
+    font-size: 1.4rem;
+}
+
+.latest-deals-box2-content {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+/* ------newsletter section---- */
+.newsletter-wrap h1 {font-size: 1.5rem;}
+
+form {
+    width: 100%;
+}
+
+.newsletter-wrap {
+    padding: 20px;
+}
+
+input[type="text"] {
+    width: 53%;
+}
+/* footer start hare  */
+.footer-wrap {
+    flex-direction: column;
+    text-align: start;
+}
+
+.footer-logo-content {
+    text-align: start !important;
+    padding-bottom: 30px;
+}
+
+.footer-link, .footer-link1  {
+    margin-right: 232px;
+}
+.footer-link1  {
+    margin-right: 275px;
+}
+}
