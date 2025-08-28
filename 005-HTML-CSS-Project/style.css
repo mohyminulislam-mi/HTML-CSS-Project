@@ -207,3 +207,46 @@ img.trusted-badge {
     text-decoration: underline;
     font-size: 23px;
 }
+/* ---------newsletter section start here--------- */
+section.newsletter {
+    background-image: url(assets/news-letter-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.newsletter-wrap {
+    text-align: center;
+    padding: 90px;
+}
+
+form {
+    width: 700px;
+}
+
+input[type="text"] {
+    padding: 10px 20px;
+    width: 77%;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    margin-right: -6px;
+}
+
+.newsletter-content {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-wrap h1 {
+    color: white;
+    font-size: 2.5rem;
+    padding-bottom: 22px;
+}
+button.newsletter-btn {
+    background-color: #E95A08;
+    padding: 12px 30px;
+    border: none;
+    outline: none;
+    color: white;
+}
